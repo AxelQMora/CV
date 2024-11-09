@@ -1,0 +1,128 @@
+
+/* Reset and Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'baskerville', sans-serif;
+    background-color: #f1ecec;
+    color: #333;
+}
+
+/* Main Container */
+.cv-container {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* barra lateral */
+.sidebar {
+    width: 300px;
+    background-color: #052cee;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-info h1 {
+    font-size: 1.8em;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.profile-info p {
+    font-size: 1em;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.contact-info h3 {
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
+
+.contact-info p {
+    font-size: 0.9em;
+    margin-top: 5px;
+
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    padding: 20px 30px;
+}
+
+/* Section Titles */
+.main-content h2 {
+    font-size: 1.5em;
+    color: #0003b8;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 4px;
+}
+
+/* Profile Section */
+.profile p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+/* Experience and Education */
+.experience .job, .education .school {
+    margin-bottom: 20px;
+}
+
+.experience h3, .education h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.experience span, .education span {
+    display: block;
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.experience ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.experience ul li {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Skills Section */
+.skills p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Additional Styling */
+.main-content section {
+    margin-bottom: 20px;
+}
+
+.main-content section p, .main-content section ul li {
+    line-height: 1.6;
+}
